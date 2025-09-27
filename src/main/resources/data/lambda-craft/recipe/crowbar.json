@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #i",
+        "#i#",
+        "i# "
+    ],
+    "key": {
+        "#": "minecraft:red_dye",
+        "i": "minecraft:iron_ingot"
+    },
+    "result": {
+			"id": "lambda-craft:crowbar",
+			"count": 1
+	}
+}

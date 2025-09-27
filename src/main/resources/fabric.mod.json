@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "lambda-craft",
+	"version": "${version}",
+	"name": "LambdaCraft",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Eduardo Silva"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3",
+	"icon": "assets/template-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.LambdaCraft"
+		],
+		"client": [
+			"com.example.TemplateModClient"
+		],
+		"fabric-datagen": [
+			"com.example.TemplateModDataGenerator"
+		]
+	},
+	"mixins": [
+		"template-mod.mixins.json",
+		{
+			"config": "template-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

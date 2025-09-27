@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        "KCK",
+        "#  "
+    ],
+    "key": {
+        "#": "minecraft:bread",
+        "K": "minecraft:kelp",
+        "C": "minecraft:cooked_beef"
+    },
+    "result": {
+        "id": "lambda-craft:sandvich",
+        "count": 1
+    }
+}
