@@ -1,0 +1,23 @@
+{
+  "sandvich": {
+    "subtitle": "sound.lambda-craft.sandvich",
+    "sounds": [
+      "lambda-craft:sandvich_eat_1",
+      "lambda-craft:sandvich_eat_2",
+      "lambda-craft:sandvich_eat_3",
+      "lambda-craft:sandvich_eat_4",
+      "lambda-craft:sandvich_eat_5",
+      "lambda-craft:sandvich_eat_6",
+      "lambda-craft:sandvich_eat_7",
+      "lambda-craft:sandvich_eat_8",
+      "lambda-craft:sandvich_eat_9",
+      "lambda-craft:sandvich_eat_10",
+      "lambda-craft:sandvich_eat_10",
+      "lambda-craft:sandvich_eat_11",
+      "lambda-craft:sandvich_eat_12",
+      "lambda-craft:sandvich_eat_13",
+      "lambda-craft:sandvich_eat_14",
+      "lambda-craft:sandvich_eat_15"
+    ]
+  }
+}
